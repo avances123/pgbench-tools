@@ -42,7 +42,7 @@ RESULTDB=results
 # the number of worker threads up to this maximum for each client count
 MAX_WORKERS=""
 
-SCRIPT="select.sql"
+SCRIPT="tpc-b.sql"
 SCALES="1 10 20"
 SETCLIENTS="16 32 60"
 SETTIMES=3
