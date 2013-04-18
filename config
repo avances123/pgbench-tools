@@ -43,8 +43,8 @@ RESULTDB=results
 MAX_WORKERS=""
 
 SCRIPT="select.sql"
-SCALES="1 10 100 1000"
-SETCLIENTS="1 2 4 8 16 32"
+SCALES="1 10 20"
+SETCLIENTS="16 32 60"
 SETTIMES=3
 
 # RUNTIME is in seconds.  If it is specified, then TOTTRANS is ignored.
